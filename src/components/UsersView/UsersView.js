@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 import "./UsersView.scss";
 // import Spinner from "./../Spinner/Spinner.js";
-import fetchUrl from "../../utilities/fetchFunction.js";
+import fetchUrl from "../../utilities/fetchUrl";
 
 function UsersView() {
   let url = "https://reqres.in/api/users/";
